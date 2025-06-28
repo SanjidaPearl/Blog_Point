@@ -3,23 +3,23 @@
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="container">
-                        <h1 class="banner_taital">Adventure</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+                        <h1 class="banner_taital">Welcome to Blog Point!!</h1>
+                        <p class="banner_text">A place where every voice matters. Share your thoughts, stories, opinions, or random ideas — this is your digital notebook.</p>
+                      
                      </div>
                   </div>
                   <div class="carousel-item">
                      <div class="container">
-                        <h1 class="banner_taital">Adventure</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+                        <h1 class="banner_taital">Welcome to Blog Point!!</h1>
+                        <p class="banner_text">From daily reflections to bold opinions — write freely. No filters. Just thoughts</p>
+                  
                      </div>
                   </div>
                   <div class="carousel-item">
                      <div class="container">
-                        <h1 class="banner_taital">Adventure</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+                        <h1 class="banner_taital">Welcome to Blog Point!!</h1>
+                        <p class="banner_text">Write a poem, a journal entry, a tech rant, or a life lesson — it's all welcome here.</p>
+         
                      </div>
                   </div>
                </div>

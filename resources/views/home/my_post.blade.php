@@ -63,8 +63,6 @@
        @endforeach
    </div>
    <!-- header section end -->
-   <!-- services section start
-   <!-- services section end -->
    <!-- about section start -->
    @include('home.about')
    <!-- about section end -->

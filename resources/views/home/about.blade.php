@@ -4,12 +4,11 @@
                <div class="col-md-6">
                   <div class="about_taital_main">
                      <h1 class="about_taital">About Us</h1>
-                     <p class="about_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-                     <div class="readmore_bt"><a href="#">Read More</a></div>
+                     <p class="about_text"style="color: white;">Welcome to Blog Point – your personal corner on the internet to share thoughts, experiences, and stories. Whether it’s an opinion, a reflection, or just something you feel like expressing, Blog Point gives everyone a voice. Here, we believe that every thought matters and every perspective adds value. Write freely, read widely, and be part of a growing community of people who love to express themselves through words.</p>
                   </div>
                </div>
                <div class="col-md-6 padding_right_0">
-                  <div><img src="images/about-img.png" class="about_img"></div>
+                  <div><img src="images/about_blog.png" class="about_img"></div>
                </div>
             </div>
          </div>

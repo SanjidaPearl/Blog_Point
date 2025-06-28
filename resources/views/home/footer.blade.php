@@ -1,9 +1,8 @@
 <!-- choose section start -->
 <div class="choose_section layout_padding">
          <div class="container">
-            <h1 class="choose_taital">Why Choose Us</h1>
-            <p class="choose_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-            <div class="read_bt_1"><a href="#">Read More</a></div>
+            <h1 class="choose_taital" style="color: white;" >Why Choose Us</h1>
+            <p class="choose_text" style="color: white;">At Blog Point, we make self-expression simple, meaningful, and accessible. Our platform is designed for everyone — from first-time bloggers to experienced writers — to share their thoughts without judgment or complexity. We offer a clean, distraction-free writing experience, flexible privacy controls, and a supportive community that values authenticity. Whether you’re here to inspire, inform, or just be heard, Blog Point is where your words matter most.</p>
             <div class="newsletter_box">
                <h1 class="let_text">Let Start Talk with Us</h1>
                <div class="getquote_bt"><a href="#">Get A Quote</a></div>
@@ -22,14 +21,13 @@
                <div class="call_text"><img src="images/call-icon.png"></div>
                <div class="call_text"><a href="#">Call +01 1234567890</a></div>
                <div class="call_text"><img src="images/mail-icon.png"></div>
-               <div class="call_text"><a href="#">demo@gmail.com</a></div>
+               <div class="call_text"><a href="#">blogpoint@gmail.com</a></div>
             </div>
             <div class="social_icon">
                <ul>
-                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                  <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                  <li><a href="https://www.facebook.com/"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="https://www.linkedin.com/feed/"><img src="images/linkedin-icon.png"></a></li>
+                  <li><a href="https://www.instagram.com/"><img src="images/instagram-icon.png"></a></li>
                </ul>
             </div>
          </div>
@@ -38,7 +36,7 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+           <p class="copyright_text">2025 All Rights Reserved. Design by Pearl</p>
          </div>
       </div>
       <!-- copyright section end -->

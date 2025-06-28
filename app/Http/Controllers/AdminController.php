@@ -67,6 +67,12 @@ class AdminController extends Controller
 
         return view('admin.show_post',compact('post'));
     }
+   public function about_us()
+    {
+        $post = Post::all();
+
+        return view('admin.about_us',compact('post'));
+    }
     public function delete_post($id){
         $post = Post::find($id);
         $post->delete();

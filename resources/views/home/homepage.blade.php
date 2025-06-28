@@ -15,9 +15,7 @@
       <!-- banner section end -->
    </div>
    <!-- header section end -->
-   <!-- services section start -->
-   @include('home.services')
-   <!-- services section end -->
+   <!-- about section start -->
    <!-- about section start -->
    @include('home.about')
    <!-- about section end -->

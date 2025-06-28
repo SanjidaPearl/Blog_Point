@@ -13,6 +13,7 @@ class HomeController extends Controller
     //
     public function index()
     {
+        
         if(Auth::id())
         {
             $post = Post::where('post_status','=','active')->get();
@@ -24,7 +25,7 @@ class HomeController extends Controller
              }
              else if($usertype == 'admin')
              {
-                return view('admin.adminhome');
+                return view('admin.index',compact('post'));
              }
              else
              {
