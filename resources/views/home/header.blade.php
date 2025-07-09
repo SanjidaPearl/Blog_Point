@@ -39,6 +39,8 @@
                <li class="active"><a href="index.html">Home</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="blog.html">Blog</a></li>
+               <li><a href="{{url('my_post')}}">My Post</a></li>
+               <li><a href="{{url('create_post')}}">Create Post</a></li>
                @if (Route::has('login'))
                @auth
                <li>
@@ -46,8 +48,13 @@
 
                   </x-app-layout>
                </li>
-               <li><a href="{{url('my_post')}}">My Post</a></li>
-               <li><a href="{{url('create_post')}}">Create Post</a></li>
+               <li>    
+                  <!-- @if(Auth::user()->img_path) -->
+                  <img src="{{ asset(Auth::user()->img_path) }}" alt="Profile Picture" class="img-fluid rounded-circle" width="80">
+                  <!-- @else -->
+                  <!-- <p>No picture uploaded.</p> -->
+                  <!-- @endif  -->
+               </li>
                @else
                <li><a href="{{route('login')}}">Login</a></li>
                <li><a href="{{route('register')}}">Register</a></li>
