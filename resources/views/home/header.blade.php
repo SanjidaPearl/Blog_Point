@@ -36,13 +36,13 @@
          <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
          <div class="menu_main">
             <ul>
-               <li class="active"><a href="index.html">Home</a></li>
+               <li class="active"><a href="{{ route('home') }}">Home</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="blog.html">Blog</a></li>
+                @if (Route::has('login'))
+               @auth
                <li><a href="{{url('my_post')}}">My Post</a></li>
                <li><a href="{{url('create_post')}}">Create Post</a></li>
-               @if (Route::has('login'))
-               @auth
                <li>
                   <x-app-layout>
 

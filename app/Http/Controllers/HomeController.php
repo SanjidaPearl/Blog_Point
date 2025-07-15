@@ -13,11 +13,10 @@ class HomeController extends Controller
     //
     public function index()
     {
-        
         if(Auth::id())
         {
             $post = Post::where('post_status','=','active')->get();
-             $usertype = Auth::user()->usertype;
+            $usertype = Auth::user()->usertype;
 
              if($usertype == 'user')
              {
@@ -31,8 +30,10 @@ class HomeController extends Controller
              {
                 return redirect()->back();
              }
-
-        }
+        } 
+        else {
+        return redirect('/');
+       } 
     }
     public function homepage()
     {

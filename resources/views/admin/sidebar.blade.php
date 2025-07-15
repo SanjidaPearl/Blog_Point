@@ -14,9 +14,18 @@
           </div>
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
-        <ul class="list-unstyled">
-                <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-                <li><a href="{{ url('post_page') }}"> <i class="icon-grid"></i>Add Post </a></li>
-                <li><a href="{{ url('/show_post') }}"> <i class="fa fa-bar-chart"></i>Show Post </a></li>
-       <li><a href="{{ url('/about_us') }}"> <i class="fa fa-bar-chart"></i>About Us</a></li>
-      </nav>
+  <ul class="list-unstyled">
+    <li class="{{ request()->routeIs('adhome') ? 'active' : '' }}">
+        <a href="{{ route('adhome') }}"> <i class="icon-home"></i>Home</a>
+    </li>
+    <li class="{{ request()->is('post_page') ? 'active' : '' }}">
+        <a href="{{ url('post_page') }}"> <i class="icon-grid"></i>Add Post</a>
+    </li>
+    <li class="{{ request()->is('show_post') ? 'active' : '' }}">
+        <a href="{{ url('show_post') }}"> <i class="fa fa-bar-chart"></i>Show Post</a>
+    </li>
+    <li class="{{ request()->is('about_us') ? 'active' : '' }}">
+        <a href="{{ url('about_us') }}"> <i class="fa fa-bar-chart"></i>About Us</a>
+    </li>
+</ul>
+</nav>
